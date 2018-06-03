@@ -6,9 +6,5 @@ class Poetry(models.Model):
 	poem_text = models.CharField(max_length=500)
 	poem_writer = models.CharField(max_length=10)
 
-	def __str_text__(self):
-		return self.poem_text
-	def __str_writer__(self):
-		return self.poem_writer
-	def __str_title__(self):
-		return self.poem_writer
+	def __str__(self):
+		return self.poem_title
