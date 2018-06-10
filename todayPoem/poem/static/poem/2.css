@@ -1,11 +1,10 @@
 div {
 	font-family: vardhana;
-	font-size:5rem;
-	font-weight: 900;
+	font-size:1.5rem;
+	font-weight: 100;
 	color:white;
 	text-align: center;
 	margin-top: 100px;
-
 }
 
 .video_selector {
@@ -27,11 +26,11 @@ body
 /* 스마트폰 (가로용) ----------- */
 @media only screen
 and (min-width : 321px) {
-/* Styles */
+	/* Styles */
 }
- 
+
 /*스마트폰 (세로용) ----------- */
 @media only screen
 and (max-width : 320px) {
-/* Styles */
+	/* Styles */
 }
