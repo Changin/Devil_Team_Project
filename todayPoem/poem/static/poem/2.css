@@ -1,0 +1,37 @@
+div {
+	font-family: vardhana;
+	font-size:5rem;
+	font-weight: 900;
+	color:white;
+	text-align: center;
+	margin-top: 100px;
+
+}
+
+.video_selector {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;  
+	height: auto;
+	z-index: -999;
+
+}
+body
+{
+	background-size:cover;
+}
+
+/* 스마트폰 (가로용) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+}
+ 
+/*스마트폰 (세로용) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+}

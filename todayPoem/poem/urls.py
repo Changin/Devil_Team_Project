@@ -1,8 +1,9 @@
 from django.urls import path
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('<int:poem_id>/',views.view,name='view'),
+    path('view/',views.view,name='view'),
 ]
