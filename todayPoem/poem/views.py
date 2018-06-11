@@ -8,4 +8,4 @@ def index(request):
 
 def view(request):
 	poem_object = get_object_or_404(Poetry,id=1)
-	return render(request, 'poem/detail.html', {'poem_object':poem_object})
+	return render(request, 'poem/pro1.html', {'poem_object':poem_object})
