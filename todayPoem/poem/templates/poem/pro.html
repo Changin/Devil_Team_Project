@@ -5,86 +5,8 @@
 <html>
 
 <head>
-<<<<<<< HEAD
-<meta charset="utf-8">
-<link rel="stylesheet" href="{% static 'poem/1.css' %}">
-<style type="text/css">
-.k {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background: #141926;
-  font-family: Helvetica, Arial, sans-serif; 
-}
-
-.outer {
-  position: relative;
-  margin: auto;
-  width: 75px;
-  margin-top: 35px;
-  
-  cursor: pointer;
-}
-
-.inner {
-  width: inherit;
-  text-align: center;
-}
-
-label { 
-  font-size: .8em; 
-  line-height: 4em;
-  text-transform: uppercase;
-  color: #fff;
-  transition: all .3s ease-in;
-  opacity: 0;
-  cursor: pointer;
-}
-
-.inner:before, .inner:after {
-  position: absolute;
-  content: '';
-  height: 1px;
-  width: inherit;
-  background: #FFC107;
-  left: 0;
-  transition: all .3s ease-in;
-}
-
-.inner:before {
-  top: 50%; 
-  transform: rotate(45deg);  
-}
-
-.inner:after {  
-  bottom: 50%;
-  transform: rotate(-45deg);  
-}
-
-.outer:hover label {
-  opacity: 1;
-}
-
-.outer:hover .inner:before,
-.outer:hover .inner:after {
-  transform: rotate(0);
-}
-
-.outer:hover .inner:before {
-  top: 0;
-}
-
-.outer:hover .inner:after {
-  bottom: 0;
-}
-a {
-	text-decoration: none;
-=======
     <meta charset="utf-8">
-    <link rel="stylesheet" href="{% static 'poem/1.css' %}">
+    <link rel="stylesheet" href="{% static 'poem/1.css' %}?ver=5">
     <style type="text/css">
     .k {
       padding: 0;
@@ -102,7 +24,7 @@ a {
       margin: auto;
       width: 75px;
       margin-top: 35px;
-      
+
       cursor: pointer;
   }
 
@@ -159,7 +81,6 @@ a {
   }
   a {
    text-decoration: none;
->>>>>>> parent of f336fb1... update
 }
 
 .f{
@@ -177,38 +98,28 @@ a {
 
 
 <body>
-<br><br><br><br>
-<div class="f">오늘의 시</div>
-	<br><Br>
+    <br><br><br><br>
+    <div class="f">오늘의 시</div>
+    <br><Br>
 
-<div class="outer k">
+    <div class="outer k">
 
-  <div class="inner">
+      <div class="inner">
 
-   <a href="view/">
+         <a href="view/">
 
-<<<<<<< HEAD
- <label>받기!</label>
+           <label>받기!</label>
 
-</a>
-  
-  </div>
-=======
        </a>
-       
+
    </div>
->>>>>>> parent of f336fb1... update
 
 </div>	
 
 
 <video autoplay loop muted class="video_selector">
-	<source src="{% static 'poem/media/1.mp4' %}" type="video/mp4">
-<<<<<<< HEAD
-</video>
-=======
+	<source src="{% static 'poem/media/2.mp4' %}" type="video/mp4">
     </video>
->>>>>>> parent of f336fb1... update
 
 </body>
 </html>
