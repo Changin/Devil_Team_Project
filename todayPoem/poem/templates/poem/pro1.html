@@ -14,97 +14,92 @@
     <style>
 
     .text {
-       position: absolute;
-       right: 115px;
-   }
+        position: absolute;
+        right: 115px;
+    }
 
-   .qwe 
-   {
-       text-align: center;
-   }
+    .qwe {
+        text-align: center;
+    }
 
+    @keyframes example1 {
+        0%   { opacity: 0; }
+        10%  { opacity: 0; }
+        20%  { opacity: 1; }
+        100% { opacity: 1; }
+    }
+    @keyframes example2 {
+        0%   { opacity: 0; }
+        20%  { opacity: 0; }
+        30%  { opacity: 1; }
+        100% { opacity: 1; }
+    }
+    @keyframes example3 {
+        0%   { opacity: 0; }
+        30%  { opacity: 0; }
+        40%  { opacity: 1; }
+        100% { opacity: 1; }
+    }
+    @keyframes example4 {
+        0%   { opacity: 0; }
+        40%  { opacity: 0; }
+        50%  { opacity: 1; }
+        100% { opacity: 1; }
+    }
+    @keyframes example5 {
+        0%   { opacity: 0; }
+        50%  { opacity: 0; }
+        60%  { opacity: 1; }
+        100% { opacity: 1; }
+    }
+    @keyframes example6 {
+        0%   { opacity: 0; }
+        60%  { opacity: 0; }
+        70%  { opacity: 1; }
+        100% { opacity: 1; }
+    }
+    @keyframes example7 {
+        0%   { opacity: 0; }
+        70%  { opacity: 0; }
+        80%  { opacity: 1; }
+        100% { opacity: 1; }
+    }
 
-   @keyframes example1 {
-      0%   { opacity: 0; }
-      10%  { opacity: 0; }
-      20% { opacity: 1; }
-      100% { opacity: 1; }
-  }
-  @keyframes example2 {
-      0%   { opacity: 0; }
-      20%  { opacity: 0; }
-      30% { opacity: 1; }
-      100% { opacity: 1; }
-  }
-  @keyframes example3 {
-      0%   { opacity: 0; }
-      30%  { opacity: 0; }
-      40% { opacity: 1; }
-      100% { opacity: 1; }
-  }
-  @keyframes example4 {
-      0%   { opacity: 0; }
-      40%  { opacity: 0; }
-      50% { opacity: 1; }
-      100% { opacity: 1; }
-  }
-  @keyframes example5 {
-      0%   { opacity: 0; }
-      50%  { opacity: 0; }
-      60% { opacity: 1; }
-      100% { opacity: 1; }
-  }
-  @keyframes example6 {
-      0%   { opacity: 0; }
-      60%  { opacity: 0; }
-      70%  { opacity: 1; }
-      100% { opacity: 1; }
-  }
-  @keyframes example7 {
-      0%   { opacity: 0; }
-      70%  { opacity: 0; }
-      80%  { opacity: 1; }
-      100% { opacity: 1; }
-  }
-
-
-  .a1{
-    -webkit-animation-name: example1;
-    -webkit-animation-duration: 15s;
-    animation-name: example1;
-}
-
-.a2{
-    -webkit-animation-name: example2; 
-    -webkit-animation-duration: 15s;
-    animation-name: example2;
-}
-.a3{
-    -webkit-animation-name: example3; 
-    -webkit-animation-duration: 15s;
-    animation-name: example3;
-}
-.a4{
-    -webkit-animation-name: example4; 
-    -webkit-animation-duration: 15s;
-    animation-name: example4;
-
-}
-.a5{
-    -webkit-animation-name: example5; 
-    -webkit-animation-duration: 15s;
-    animation-name: example5;
-}
-.a6{
-    -webkit-animation-name: example6; 
-    -webkit-animation-duration: 15s;
-    animation-name: example6;
-}
-.a7{
-    -webkit-animation-name: example7; 
-    -webkit-animation-duration: 15s;
-    animation-name: example7;
-}
+    .a1 {
+        -webkit-animation-name: example1;
+        -webkit-animation-duration: 15s;
+        animation-name: example1;
+    }
+    .a2 {
+        -webkit-animation-name: example2; 
+        -webkit-animation-duration: 15s;
+        animation-name: example2;
+    }
+    .a3 {
+        -webkit-animation-name: example3; 
+        -webkit-animation-duration: 15s;
+        animation-name: example3;
+    }
+    .a4 {
+        -webkit-animation-name: example4; 
+        -webkit-animation-duration: 15s;
+        animation-name: example4;
+    }
+    .a5 {
+        -webkit-animation-name: example5; 
+        -webkit-animation-duration: 15s;
+        animation-name: example5;
+    }
+    .a6 {
+        -webkit-animation-name: example6; 
+        -webkit-animation-duration: 15s;
+        animation-name: example6;
+    }
+    .a7 {
+        -webkit-animation-name: example7; 
+        -webkit-animation-duration: 15s;
+        animation-name: example7;
+    }
 </style>
 </head>
 
@@ -132,9 +127,9 @@
         </div>
     </div>
 
-<video autoplay loop muted class="video_selector">
-   <source src="{% static 'poem/media/2.mp4' %}" type="video/mp4">
-   </video>
+    <video autoplay loop muted class="video_selector">
+        <source src="{% static 'poem/media/2.mp4' %}" type="video/mp4">
+    </video>
 
 </body>
 </html>
