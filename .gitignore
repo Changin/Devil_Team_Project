@@ -3,3 +3,4 @@ todayPeom/todayPoem/settings.py
 db.sqlite3
 *.mp4
 *.pyc
+.DS_Store
