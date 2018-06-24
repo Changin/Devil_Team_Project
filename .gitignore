@@ -1,5 +1,5 @@
 myvenv
-todayPeom/todayPoem/settings.py
+todayPm/todayPoem/settings.py
 db.sqlite3
 *.mp4
 *.pyc
